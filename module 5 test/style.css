@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+header{
+        width:100vw;
+        height: 20vh;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        /*background-position: bottom;*/
+        /*background-size: cover;*/
+        /*display: flex;*/
+       /* align-items: center;*/
+       /* justify-content: center;*/
+  
+}
+.intro{
+    
+    color: black;
+   text-align: center;
+    
+}
+.intro h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.intro h2{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    padding: 8px 15px;
+    background: rgb(39, 223, 161);
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.AboutMe{
+    margin-bottom: 0px;
+    color: black;
+   text-align: left;
+   padding-left: 150px;
+    
+}
+.AboutMe h3{
+    font-size: 25px;
+    text-align: left;
+    
+    padding-bottom: 2px;
+}
+.AboutMe b{
+    color: blueviolet;
+}
+.AboutMe h2{
+    padding-bottom: 10px;
+}
+section h1{
+    padding-bottom: 30px;
+}
+.education h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.education p{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.contact h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#linkedin{
+    padding-bottom: 20px;
+}
+#github{
+    padding-bottom: 20px;
+}
+#gmail{
+    padding-bottom: 20px;
+}
